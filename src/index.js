@@ -15,9 +15,6 @@ connectDB()
     console.log("MongoDB connection failed !!! ", err);
 });
 
-// Other application logic (e.g., express app setup, routes) will go here
-// For now, it just connects to the DB.
-
 
 
 // import express from "express";
@@ -41,3 +38,4 @@ connectDB()
 //         throw err;
 //     }
 // })();``
+
